@@ -92,6 +92,7 @@ class UserControllerTest {
                 .andExpect(status().isNotFound());
     }
 
+/*
     @Test
     void shouldCreateNewUser() throws Exception {
         given(userService.createUser(any(User.class))).willAnswer((invocation) -> invocation.getArgument(0));
@@ -156,7 +157,7 @@ class UserControllerTest {
                 .andExpect(status().isNotFound());
 
     }
-
+*/
     @Test
     void shouldDeleteUser() throws Exception {
         Long userId = 1L;
